@@ -1,0 +1,130 @@
+#+LATEX_CLASS: rasilabtemplate
+#+TITLE: Course Syllabus for Tools for Computational Biology
+
+** Course overview and curriculum content
+The wealth of publicly available biological data has transformed the nature of molecular biology research in today's post-genomic era. In addition to careful design and execution of experiments, molecular biologists routinely interpret their collected data in the context of rich, multi-layered annotations available from public data repositories such as NCBI and ENSEMBL. Many research projects even start with extensive analyses of public data sets for hypothesis formulation and experimental design. Performing these integrative analyses require an ability to computationally organize, transform, and visualize biological data from different sources and in diverse formats.
+
+Students in the UW Molecular and Cellular Biology graduate program come primarily from an experimental biology backgound. Many of them have little or no training in computational analyses of biological data. Students are often expected to pick up computational skills on their own as part of their graduate research. However, the lack of familiarity and comfort with computational data analyses impedes students' ability to critically examine published literature and formulate their thesis projects early in their graduate career. The unstructured learning of computational skills by many students often result in /ad hoc/ data analyses methods that do not adhere to established best practices in computational biology for reproducibility and sharing.
+
+As practicing computational biologists, the course instructors have found that they repeatedly teach a core set of cross-cutting computational biology tools to each new graduate student in their research group. The proposed course will formalize and expand this training to all students in the MCB graduate program in their incoming year. Students will learn to organize unstructured data into standard tabular and hierarchical formats, transform data for statistical analyses, and visualize the transformed data. The course will introduce students to computational best practices including version control, project organization, and code documentation. Students will gain hands-on experience working with Unix command line tools and the widely used Python and R programming languages. Each class will be structured as an active learning module where students will download a publicly available data set and learn the computational methods required to analyze and visualize that data set.
+
+** Overall learning goals and objectives
+At the end of the course, the following learning objectives will be met:
+1. The student will understand the concept of tidy data as a required step for many computational analyses. The student will be able to use Python and R programming languages to transform unstructured biological data into a tidy format.
+2. Students will be able to transform raw data into various summary statistics for testing specific biological hypotheses. They will be able to graphically present their analyses using data visualization libraries such as Seaborn and GGplot.
+3. The student will feel comfortable using the UNIX command line for accomplishing common computational tasks such as connecting to remote servers, installing new software from source, and batch and parallel processing of multiple data sets.
+4. The student will be able to apply best practices for reproducible computational research including version control, code documentation, and project organization.
+5. Students will be able to combine the above skills for performing integrative, multistep analyses of publicly available data such as high throughput sequencing data and genomic annotations.  
+
+** Evaluation and grading
+1. Students will be assigned reading material on a specific topic before each class. At the beginning of the class, the instructor will take questions to clarify any points of confusion or difficulty. This Q&A session will be followed by 70 minute of hand-on learning where the students will work through a series of computational exercises that illustrate practical use cases of the topic for that class. Students will work in teams of 2 or 3 and frequently consult the instructor to troubleshoot their programming code. This interaction is critical for students to acquire a thorough understanding of the discussed topic, and will constitute 25% of the evaluation. The instructor will note down the level of participation of each student at the end of each class.
+2. Students' understanding of each discussed topic will be evaluated through weekly homework assignments. Students will receive their assignments through an online course repository at [[http://gihub.com]]. They will submit their homeworks a week after assignment as code samples through the same online repository. A total of 5 homeworks will be assigned and each will account for 10% of the evaluation for a total of 50%.
+3. Students' ability to integrate the individual topics into a holistic computational workflow will be evaluated through a final assignment. These assignments will take the form of designing a computational pipeline for reproducing the findings in published research papers. The instructors will pick a list of 20 published papers for students to choose from for their final assignment. Students will submit their assignments as code samples through the same online repository as above. This final assignment will constitute 25% of the evaluation.
+
+In summary, grades will be calculated based on the following distribution:
+
+| Class participation    | 25% |
+| 5 homework assignments | 50% |
+| Final assignment       | 25% |
+
+
+** Weekly course schedule
+
+*** Week 1: Introduction to online resources and version control
+Intro to online resources
+Organization of data (in directories and in tabular format)
+Notebooks
+Git 101 to be able to submit assignments (commit, push); web interface
+GitHub (commenting on commits, various views)
+Markdown
+[Organizing your spreadsheet](http://dx.doi.org/10.7287/peerj.preprints.3183v1)
+
+
+## *Week 2* Python, Pandas (Jesse)
+
+* Pandas
+* Intro to tidy data; data reshaping
+* Basic plots with Matplotlib & Seaborn
+* Sidney suggests Python cheat sheets https://drive.google.com/drive/u/0/folders/0ByIrJAE4KMTtaGhRcXkxNHhmY2M
+
+
+## *Week 3* Python (Jesse)
+
+* Read in various file types (Biopython; htseq)
+* Which types of data structures are appropriate for what tasks?
+* collections module (http://alexmarandon.com/articles/python_collections_tips/)
+* Regex (https://regex101.com/; https://pythex.org/)
+* PDB debugger
+* pep8
+
+
+## *Week 4* Project organization and shell (Trevor)
+
+* Sidney suggests http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
+* terminal emulators
+* In the beginning was the command line
+* CodeAcademy command line
+* Data vs code
+* How to name your files (excellent slide deck: https://speakerdeck.com/jennybc/how-to-name-files)
+* git (branching, merging, pulling, conflict resolution, .gitignore), pull requests (GitHub)
+* GitKraken?
+
+
+## *Week 5* Shell (Erick)
+
+* environment variables, e.g. PATH, LD_LIBRARY_PATH; export and which
+* .rc files (.bash_profile for mac people)
+* what is SSH? Setting up your keys; ssh config (ProxyCommand); ssh forwarding
+* remote access, file transfer, and tmux (saving session)
+* Pretty much the whole cozy shell course
+* getting things set up with Conda (wget to download to grid[b])
+* vim!
+* diffing and diffing with an editor (ok, vimdiff)
+
+
+## *Week 6* Python (Phil)
+
+* How to organize a script that accomplishes a task
+* OOP; classes
+* Running external commands
+* Python 2 vs 3
+
+
+## *Week 7* Python (Trevor)
+
+* pylint
+* ipdb (and general debugging -- try/except/assert, check your types, etc.)
+* Mutability; Thread pools
+* kwargs
+* decorators
+* Command line interface-- argparse
+* Making a package
+* Writing documentation for your package (Sphinx/whatever)
+
+
+## *Week 8* Shell (Erick)
+
+* Cluster interface
+* hacking sequence data at the command line? seqmagick for the small stuff, and ??? for the big stuff?
+* Shell scripting; history
+* Make
+* Installation from source: Configure → Make → Make install. Introduction to Make?
+* Organization of projects again; scripts should never include absolute paths! (This includes an intro to /usr/bin/env); $(date -I), rename
+* parallel / xargs
+
+
+## *Week 9* R (Rasi)
+
+* Tidyverse (taught using flow cytometry data)
+   * Concept of tidy data and annotations
+   * Read/write CSV
+   * Dplyr verbs - Select, mutate, filter, group_by, summarize, join, spread/gather; pipes[d]
+   * GGplot - geoms, faceting
+
+
+## *Week 10* R + genome annotation (Rasi)
+
+* Bioconductor (taught using RNA seq data)
+   * Biostrings - Fasta IO, sequence manipulation, motif counts
+   * GenomicAlignments, GenomicFeatures - working with illumina data and genomic annotations
+   * AnnotationDbi - Retrieve standardized annotations
