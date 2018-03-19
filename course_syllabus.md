@@ -2,7 +2,7 @@
 
 # Course overview and curriculum content
 
-The wealth of publicly available biological data has transformed the nature of molecular biology research in today's post-genomic era. In addition to careful design and execution of experiments, molecular biologists routinely interpret their collected data in the context of rich, multi-layered annotations available from public data repositories such as NCBI and ENSEMBL. Many research projects even start with extensive analyses of public data sets for hypothesis formulation and experimental design. Performing these integrative analyses require an ability to computationally organize, transform, and visualize biological data from different sources and in diverse formats.
+The wealth of publicly available biological data has transformed the nature of molecular biology research in today's post-genomic era. In addition to careful design and execution of experiments, molecular biologists routinely interpret their collected data in the context of rich, multi-layered annotations available from public data repositories such as NCBI and ENSEMBL. Many research projects even start with extensive analyses of public data sets for hypothesis formulation and experimental design. Performing these integrative analyses requires an ability to computationally organize, transform, and visualize biological data from different sources and in diverse formats.
 
 Students in the UW Molecular and Cellular Biology graduate program come primarily from an experimental biology backgound. Many of them have little or no training in computational analyses of biological data. Students are often expected to pick up computational skills on their own as part of their graduate research. However, the lack of familiarity and comfort with computational data analyses impedes students' ability to critically examine published literature and formulate their thesis projects early in their graduate career. The unstructured learning of computational skills by many students often result in *ad hoc* data analyses methods that do not adhere to established best practices in computational biology for reproducibility and sharing.
 
@@ -57,107 +57,155 @@ In summary, grades will be calculated based on the following distribution:
 </table>
 
 
-# Weekly course schedule
+# Course Textbooks
+
+-   [Python Data Science Handbook: Essential Tools for Working with Data](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) by Jake Vanderplas
+-   [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399) by Hadley Wickham
+
+A primary goal of this course is to teach students to use online learning resources effectively. Hence in addition to the above books, online references will be provided for each class.
 
 
-## Week 1: Intro; minimal Git[Hub] (Erick)
+# Course Instructors
 
--   Intro to online resources
--   Organization of data (in directories and in tabular format)
--   Notebooks
--   Git 101 to be able to submit assignments (commit, push); web
-    interface
+The course will be jointly taught by 4 faculty in the Computational Biology Program at Fred Hutch. Each instructor will teach 2&#x2013;3 lectures. The instructors will closely coordinate their lectures to ensure seamless transition and absence of redundancy.
+
+Arvind Subramaniam  
+Assistant Member  
+Basic Sciences Division and Computational Biology Program, PHS  
+Fred Hutchinson Cancer Research Center  
+[rasi@fredhutch.org](rasi@fredhutch.org) (Primary contact)
+
+Trevor Bedford  
+Associate Member  
+Vaccine and Infectious Disease Division and Computational Biology Program, PHS  
+Fred Hutchinson Cancer Research Center  
+[trevor@bedford.io](trevor@bedford.io)
+
+Jesse Bloom  
+Associate Member  
+Basic Sciences Division and Computational Biology Program, PHS  
+Fred Hutchinson Cancer Research Center  
+[jbloom@fredhutch.org](jbloom@fredhutch.org)
+
+Phil Bradley  
+Associate Member  
+Computational Biology Program, PHS  
+Fred Hutchinson Cancer Research Center  
+[pbradley@fredhutch.org](pbradley@fredhutch.org)
+
+
+# Course schedule
+
+
+## Class 1: Introduction, code and data organization, version control
+
+-   Introduction to online resources for learning
+-   Organization of data in directories and in tabular format
+-   Writing in plain text using Markdown
+-   Using Jupyter Notebooks for interactive data analysis
+-   Basics of Git version control: to be able to submit assignments (add, commit, push); web interface
 -   GitHub (commenting on commits, various views)
--   Markdown
--   [Organizing your spreadsheet](http://dx.doi.org/10.7287/peerj.preprints.3183v1)
+
+Online Resource:  [StackOverflow](http://stackoverflow.com)
 
 
-## Week 2: Python, Pandas (Jesse)
+## Class 2: Tabular data analysis using  Python and Pandas
 
--   Pandas
--   Intro to tidy data; data reshaping
--   Basic plots with Matplotlib & Seaborn
--   Sidney suggests [Python cheat sheets](https://drive.google.com/drive/u/0/folders/0ByIrJAE4KMTtaGhRcXkxNHhmY2M)
+-   Using the Python package, `pandas`, to read in tabular data
+-   Introduction to tidy data; data reshaping using `pandas`
+-   Basic plots with Matplotlib and Seaborn
 
-
-## Week 3 Python (Jesse)
-
--   Read in various file types (Biopython; htseq)
--   Which types of data structures are appropriate for what tasks?
--   collections [module](http://alexmarandon.com/articles/python\_collections\_tips/)
--   Regex [Link 1](https://regex101.com/) [Link2](https://pythex.org/)
--   PDB debugger
--   pep8
+Online Resource: [Python cheat sheets](https://drive.google.com/drive/u/0/folders/0ByIrJAE4KMTtaGhRcXkxNHhmY2M)
 
 
-## Week 4 Project organization and shell (Trevor)
+## Class 3: Writing multi-functional programs using Python
 
--   Sidney suggests [Link](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)
--   terminal emulators
--   In the beginning was the command line
--   CodeAcademy command line
--   Data vs code
--   How to name your files ([excellent slide deck](https://speakerdeck.com/jennybc/how-to-name-files))
--   git (branching, merging, pulling, conflict resolution, .gitignore), pull requests (GitHub)
--   GitKraken?
+-   Read in various file types (`biopython`, `htseq`)
+-   Teach which types of data structures are appropriate for what tasks
+-   Text analysis using regular expressions
+-   General debugging: `try/except/assert`, checking types.
+-   Using `pdb` and `ipdb` to debug Python code
+-   Formatting code for easy reproducibility according to `PEP8` standards
 
-
-## Week 5 Shell (Erick)
-
--   environment variables, e.g. `PATH`, `LD_LIBRARY_PATH`; export and which
--   .rc files (`.bash_profile` for mac people)
--   what is SSH? Setting up your keys; ssh config (ProxyCommand); ssh forwarding
--   remote access, file transfer, and tmux (saving session)
--   Pretty much the whole cozy shell course
--   getting things set up with Conda (`wget` to download to grid)
--   vim!
--   diffing and diffing with an editor (ok, vimdiff)
+Online Resources: <https://regex101.com/>, <https://pythex.org/>
 
 
-## Week 6 Python (Phil)
+## Class 4: Project organization and advanced version control
 
--   How to organize a script that accomplishes a task
--   OOP; classes
--   Running external commands
--   Python 2 vs 3
+-   Using terminal emulators
+-   Separating data and code in projects
+-   How to work in a collaborative project using git (branching, merging, pulling, conflict resolution, .gitignore), pull requests (GitHub)
 
-
-## Week 7 Python (Trevor)
-
--   pylint
--   ipdb (and general debugging &#x2013; try/except/assert, check your types, etc.)
--   Mutability; Thread pools
--   kwargs
--   decorators
--   Command line interface&#x2013; argparse
--   Making a package
--   Writing documentation for your package (Sphinx/whatever)
+Online Resources: [A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424), [How to name files](https://speakerdeck.com/jennybc/how-to-name-files)
 
 
-## Week 8 Shell (Erick)
+## Class 5: Introduction to Shell and command line
 
--   Cluster interface
--   hacking sequence data at the command line? seqmagick for the small stuff, and ??? for the big stuff?
--   Shell scripting; history
--   Make
--   Installation from source: Configure → Make → Make install. Introduction to Make?
--   Organization of projects again; scripts should never include absolute paths! (This includes an intro to /usr/bin/env); $(date -I), rename
--   parallel / xargs
+-   How to set environment variables, e.g. `PATH`, `LD_LIBRARY_PATH`, get and set locations of programs using `export` and `which`
+-   Customizing command line using `.rc` files (or `.bash_profile`)
+-   Remote access using SSH: Setting up keys; ssh config; ssh forwarding; file transfer; and tmux for saving session
+-   Setting up Python environment using Conda
+-   Using `wget` to download to grid
+-   Text editing using `vim`
+-   Tracking changes using a text editor, `vimdiff`
 
-
-## Week 9 R (Rasi)
-
--   Tidyverse (taught using flow cytometry data)
--   Concept of tidy data and annotations
--   Read/write CSV
--   Dplyr verbs - Select, mutate, filter, group<sub>by</sub>, summarize, join, spread/gather; pipes
--   GGplot - geoms, faceting
+Online Resource: [Getting cozy with the command line](http://www.fredhutch.io/articles/2017/01/05/command-line-cozy/)
 
 
-## Week 10 R + genome annotation (Rasi)
+## Class 6: Command-line tools for biological data analysis
 
--   Bioconductor (taught using RNA seq data)
--   Biostrings - Fasta IO, sequence manipulation, motif counts
--   GenomicAlignments, GenomicFeatures - working with illumina data and genomic annotations
--   AnnotationDbi - Retrieve standardized annotations
+-   Download raw data from NCBI and ENSEMBL
+-   Tools for preprocessing large data files: `sratools`, `fastxtoolkit`
+-   Align high-throughput sequencing data using `bowtie`, `HISAT2`
+
+Online resources: [NGS sequence preprocessing](http://bioinfo.cipf.es/mda12v2/lib/exe/fetch.php/sequence_preprocessing.pdf)
+
+
+## Class 7: Advanced Python
+
+-   Introduction to object-oriented programming
+-   Running external commands from Python
+-   Ensuring coding standard using `pylint`
+-   Concepts of mutability and thread pools
+-   Variable arguments using `kwargs`
+-   Using function and class decorators
+-   Creating command line interface to programs using `argparse`
+-   How to create a Python package
+-   Unit testing
+-   Writing documentation for your Python package using `Sphinx`
+
+Online Resources: [Argparse tutorial](https://docs.python.org/2/howto/argparse.html), [How to package your Python code](https://python-packaging.readthedocs.io/en/latest/), [Sphinx introduction](http://www.sphinx-doc.org/en/master/)
+
+
+## Class 8: Advanced Shell
+
+-   How to use a distributed cluster; Using `parallel` and `xargs`
+-   How to use command line to hack sequence data: `seqmagick` and `emboss` toolkit
+-   Using Shell scripting and command-line history
+-   Compiling programs from source using `Make`
+
+Online Resource: [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/) by Mendel Cooper
+
+
+## Class 9: Reading and plotting data using R
+
+-   Introduction to Rstudio programming environment
+-   Using `tidyverse` packages to analyze flow cytometry data
+-   Concept of tidy data and annotations using R
+-   How to read and write tab-delimited files
+-   Using `dplyr` verbs effectively: `select`, `mutate`, `filter`, `group_by`, `summarize`, `join`, `spread/gather`
+-   Concept of `pipe`
+-   Using `ggplot` to plot data in multiple formats. Introduce `geoms`, `faceting`
+
+Online Resources: [Enter the tidyverse](http://sjspielman.org/bio5312_fall2017/slides/day2_intro_to_tidyverse.pdf) by Stephanie Spielman, [Fundamentals of Data Visualization](http://serialmentor.com/dataviz/) by Claus Wilke
+
+
+## Class 10: Using R for genomic data analysis
+
+-   Use `bioconductor` packages to analyze RNA-seq data
+-   Use `Biostrings` for Fasta IO, sequence manipulation, motif counts
+-   Work with high-throughput sequencing alignments and genomic annotations using `GenomicAlignments`, and `GenomicFeatures`
+-   Retrieve standardized annotations using `AnnotationDbi`
+
+Online Resource: [Bioconductor for Genomic Data Science](http://kasperdanielhansen.github.io/genbioconductor/) by Kasper Daniel Hansen
 
