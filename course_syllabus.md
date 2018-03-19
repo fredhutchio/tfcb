@@ -14,7 +14,7 @@ As practicing computational biologists, the course instructors have found that t
 At the end of the course, the following learning objectives will be met:
 
 1.  The student will understand the concept of tidy data as a required step for many computational analyses. The student will be able to use Python and R programming languages to transform unstructured biological data into a tidy format.
-2.  Students will be able to transform raw data into various summary statistics for testing specific biological hypotheses. They will be able to graphically present their analyses using data visualization libraries such as Seaborn and GGplot.
+2.  Students will be able to transform raw data into various summary statistics for testing specific biological hypotheses. They will be able to graphically present their analyses using data visualization libraries such as Seaborn and ggplot2.
 3.  The student will feel comfortable using the UNIX command line for accomplishing common computational tasks such as connecting to remote servers, installing new software from source, and batch and parallel processing of multiple data sets.
 4.  The student will be able to apply best practices for reproducible computational research including version control, code documentation, and project organization.
 5.  Students will be able to combine the above skills for performing integrative, multistep analyses of publicly available data such as high throughput sequencing data and genomic annotations.
@@ -23,7 +23,7 @@ At the end of the course, the following learning objectives will be met:
 # Evaluation and grading
 
 1.  Students will be assigned reading material on a specific topic before each class. At the beginning of the class, the instructor will take questions to clarify any points of confusion or difficulty. This Q&A session will be followed by 70 minute of hand-on learning where the students will work through a series of computational exercises that illustrate practical use cases of the topic for that class. Students will work in teams of 2 or 3 and frequently consult the instructor to troubleshoot their programming code. This interaction is critical for students to acquire a thorough understanding of the discussed topic, and will constitute 25% of the evaluation. The instructor will note down the level of participation of each student at the end of each class.
-2.  Students' understanding of each discussed topic will be evaluated through weekly homework assignments. Students will receive their assignments through an online course repository at <http://gihub.com>. They will submit their homeworks a week after assignment as code samples through the same online repository. A total of 5 homeworks will be assigned and each will account for 10% of the evaluation for a total of 50%.
+2.  Students' understanding of each discussed topic will be evaluated through weekly homework assignments. Students will receive their assignments through an online course repository at <http://github.com>. They will submit their homeworks a week after assignment as code samples through the same online repository. A total of 5 homeworks will be assigned and each will account for 10% of the evaluation for a total of 50%.
 3.  Students' ability to integrate the individual topics into a holistic computational workflow will be evaluated through a final assignment. These assignments will take the form of designing a computational pipeline for reproducing the findings in published research papers. The instructors will pick a list of 20 published papers for students to choose from for their final assignment. Students will submit their assignments as code samples through the same online repository as above. This final assignment will constitute 25% of the evaluation.
 
 In summary, grades will be calculated based on the following distribution:
@@ -69,28 +69,28 @@ A primary goal of this course is to teach students to use online learning resour
 
 The course will be jointly taught by 4 faculty in the Computational Biology Program at Fred Hutch. Each instructor will teach 2&#x2013;3 lectures. The instructors will closely coordinate their lectures to ensure seamless transition and absence of redundancy.
 
-Arvind Subramaniam  
-Assistant Member  
-Basic Sciences Division and Computational Biology Program, PHS  
-Fred Hutchinson Cancer Research Center  
+Arvind Subramaniam
+Assistant Member
+Basic Sciences Division and Computational Biology Program, PHS
+Fred Hutchinson Cancer Research Center
 [rasi@fredhutch.org](rasi@fredhutch.org) (Primary contact)
 
-Trevor Bedford  
-Associate Member  
-Vaccine and Infectious Disease Division and Computational Biology Program, PHS  
-Fred Hutchinson Cancer Research Center  
+Trevor Bedford
+Associate Member
+Vaccine and Infectious Disease Division and Computational Biology Program, PHS
+Fred Hutchinson Cancer Research Center
 [trevor@bedford.io](trevor@bedford.io)
 
-Jesse Bloom  
-Associate Member  
-Basic Sciences Division and Computational Biology Program, PHS  
-Fred Hutchinson Cancer Research Center  
+Jesse Bloom
+Associate Member
+Basic Sciences Division and Computational Biology Program, PHS
+Fred Hutchinson Cancer Research Center
 [jbloom@fredhutch.org](jbloom@fredhutch.org)
 
-Phil Bradley  
-Associate Member  
-Computational Biology Program, PHS  
-Fred Hutchinson Cancer Research Center  
+Phil Bradley
+Associate Member
+Computational Biology Program, PHS
+Fred Hutchinson Cancer Research Center
 [pbradley@fredhutch.org](pbradley@fredhutch.org)
 
 
@@ -106,7 +106,7 @@ Fred Hutchinson Cancer Research Center
 -   Basics of Git version control: to be able to submit assignments (add, commit, push); web interface
 -   GitHub (commenting on commits, various views)
 
-Online Resource:  [StackOverflow](http://stackoverflow.com)
+Online Resource:  [StackOverflow](http://stackoverflow.com), and [Try Git](https://try.github.io/)
 
 
 ## Class 2: Tabular data analysis using  Python and Pandas
@@ -208,4 +208,3 @@ Online Resources: [Enter the tidyverse](http://sjspielman.org/bio5312_fall2017/s
 -   Retrieve standardized annotations using `AnnotationDbi`
 
 Online Resource: [Bioconductor for Genomic Data Science](http://kasperdanielhansen.github.io/genbioconductor/) by Kasper Daniel Hansen
-
