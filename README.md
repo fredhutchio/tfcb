@@ -1,4 +1,3 @@
-# fredhutch.io
+# Website for Tools for Computational Biology Course
 
-Computational community at the Fred Hutchinson Cancer Research Center.
-
+See [http://fredhutchio.github.io/tfcb](http://fredhutchio.github.io/tfcb)
