@@ -5,6 +5,8 @@ category:
 tags: 
 ---
 
+{:toc}
+
 **Course Schedule**
 
 The course will consist of 10 lectures starting from 27 Sep 2018 until 30 Oct 2018.
