@@ -1,4 +1,4 @@
-Class 1/10 Jupyter, Markdown, Github and version-control (Jesse / Trevor)
+Class 1/10 Jupyter, Markdown, Github and version-control (Jesse / Trevor) Sep 27
 =========================================================================
 
 -   Brief introduction:
@@ -44,7 +44,7 @@ Class 1/10 Jupyter, Markdown, Github and version-control (Jesse / Trevor)
 -   Introduction to Markdown
 -   Introduction to Version Control and Github
 
-Class 2/10 Reading data, plotting data, and tidy data (Rasi)
+Class 2/10 Reading data, plotting data, and tidy data (Rasi) Oct 2
 ============================================================
 
 -   Use `R` in Jupyter notebook environment
@@ -66,7 +66,7 @@ Class 2/10 Reading data, plotting data, and tidy data (Rasi)
         variables eg. well number, plate number as well as biological
         variables eg. genotype, induction)
 
-Class 3/10 Project organization and introduction to command line (Trevor)
+Class 3/10 Project organization and introduction to command line (Trevor) Oct 4
 =========================================================================
 
 -   Basic Unix commands:
@@ -86,7 +86,7 @@ Class 3/10 Project organization and introduction to command line (Trevor)
 -   Introduction to `vim`
 -   `wget` / `curl`
 
-Class 4/10 Data munging (Rasi)
+Class 4/10 Data munging (Rasi) Oct 9
 ==============================
 
 -   Use `R` Jupyter environment
@@ -103,7 +103,7 @@ Homework ideas
 
 -   `at`, `if`, `all` variations
 
-Class 5/10 Advanced command line (Jesse/Phil)
+Class 5/10 Advanced command line (Jesse/Phil) Oct 11
 =============================================
 
 -   Customizing command-line using `.bashrc` and `.bash_profile`
@@ -116,7 +116,7 @@ Class 5/10 Advanced command line (Jesse/Phil)
     source-installed packages
 -   All the above tasks can be used to illustrate shell scripting
 
-Class 6/10 Genomic data analysis using Bioconductor (Rasi)
+Class 6/10 Genomic data analysis using Bioconductor (Rasi) Oct 16
 ==========================================================
 
 -   Continue using `R` Jupyter environment
@@ -127,7 +127,7 @@ Class 6/10 Genomic data analysis using Bioconductor (Rasi)
     -   Might be useful to have `plyranges` to keep a `tidyverse`-like
         workflow
 
-Class 7/10 Writing multi-functional programs using Python (Phil/Trevor/Jesse)
+Class 7/10 Writing multi-functional programs using Python (Phil/Trevor/Jesse) Oct 18
 =============================================================================
 
 -   data types: `integer`, `float`, `string`
@@ -139,14 +139,14 @@ Class 7/10 Writing multi-functional programs using Python (Phil/Trevor/Jesse)
 -   code formatting
 -   debugging using `ipdb` and `pdb`
 
-Class 8/10 Using Python for biological analyses (Jesse/Phil)
+Class 8/10 Using Python for biological analyses (Jesse/Phil) Oct 23
 ============================================================
 
 -   Biopython
 -   Protein structure parsing and modeling using Python/Jupyter
 -   String analysis and regular expressions
 
-Class 9/10 Advanced Python (Jesse/Phil)
+Class 9/10 Advanced Python (Jesse/Phil) Oct 25
 =======================================
 
 -   dictionaries
@@ -154,7 +154,7 @@ Class 9/10 Advanced Python (Jesse/Phil)
 -   Installing packages inside virtual environments
 -   Creating a Python package
 
-Class 10/10 Odds and ends (Jesse/Phil)
+Class 10/10 Odds and ends (Jesse/Phil) Oct 30
 ======================================
 
 -   Command line tools: `emboss`, `bowtie`, `fastxtoolkit`
