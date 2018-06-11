@@ -1,5 +1,5 @@
 Class 1/10 Jupyter, Markdown, Github and version-control (Jesse/Trevor) Sep 27
-=========================================================================
+==============================================================================
 
 -   Brief introduction:
     -   Course format
@@ -10,7 +10,11 @@ Class 1/10 Jupyter, Markdown, Github and version-control (Jesse/Trevor) Sep 27
         -   The goal is to introduce good practices that students should
             continue applying throughout their graduate school and
             beyond
-        -   Students will learn a bit of both `R` and `python` -- `R` for standard data analysis tasks, `python` for writing more complex workflows and to get familiar with typical programming features. At the end of the class, we recommend adopting one of them depending on analysis needs
+        -   Students will learn a bit of both `R` and `python` -- `R`
+            for standard data analysis tasks, `python` for writing more
+            complex workflows and to get familiar with typical
+            programming features. At the end of the class, we recommend
+            adopting one of them depending on analysis needs
     -   Syllabus overview
     -   Homework
         -   Everyone forks a common repository that contain the
@@ -19,7 +23,7 @@ Class 1/10 Jupyter, Markdown, Github and version-control (Jesse/Trevor) Sep 27
         -   Everyone submits their homeworks as
             `assignment_submissions/assignment_1/lastname_firstname.ipynb`
         -   Solutions will be provided at
-            `assisgnment_solutions/assignment_1_solution.ipynb`
+            `assignment_solutions/assignment_1_solution.ipynb`
     -   Grading
     -   Final project
 -   Introduction to Jupyter Notebook environment
@@ -44,7 +48,7 @@ Class 1/10 Jupyter, Markdown, Github and version-control (Jesse/Trevor) Sep 27
 -   Introduction to Version Control and Github
 
 Class 2/10 Reading data, plotting data, and tidy data (Rasi) Oct 2
-============================================================
+==================================================================
 
 -   Use `R` in Jupyter notebook environment
 -   Use a cell density and fluorescence plate reader time course
@@ -66,7 +70,7 @@ Class 2/10 Reading data, plotting data, and tidy data (Rasi) Oct 2
         variables eg. genotype, induction)
 
 Class 3/10 Project organization and introduction to command line (Trevor) Oct 4
-=========================================================================
+===============================================================================
 
 -   Basic Unix commands:
     -   `cd`
@@ -86,7 +90,7 @@ Class 3/10 Project organization and introduction to command line (Trevor) Oct 4
 -   `wget` / `curl`
 
 Class 4/10 Data munging (Rasi) Oct 9
-==============================
+====================================
 
 -   Use `R` Jupyter environment
 -   Use flow cytometry data as example
@@ -103,7 +107,7 @@ Homework ideas
 -   `at`, `if`, `all` variations
 
 Class 5/10 Genomic data analysis using Bioconductor (Rasi) Oct 16
-==========================================================
+=================================================================
 
 -   Continue using `R` Jupyter environment
 -   Use RNA Seq differential gene expression as example
@@ -114,7 +118,7 @@ Class 5/10 Genomic data analysis using Bioconductor (Rasi) Oct 16
         workflow
 
 Class 6/10 Advanced command line (Phil) Oct 11
-=============================================
+==============================================
 
 -   Customizing command-line using `.bashrc` and `.bash_profile`
     -   `alias`
@@ -127,7 +131,7 @@ Class 6/10 Advanced command line (Phil) Oct 11
 -   All the above tasks can be used to illustrate shell scripting
 
 Class 7/10 Writing multi-functional programs using Python (Phil) Oct 18
-=============================================================================
+=======================================================================
 
 -   data types: `integer`, `float`, `string`
 -   lists
@@ -139,7 +143,7 @@ Class 7/10 Writing multi-functional programs using Python (Phil) Oct 18
 -   debugging using `ipdb` and `pdb`
 
 Class 8/10 Using Python for biological analyses (Jesse) Oct 23
-============================================================
+==============================================================
 
 -   String analysis and regular expressions
 -   File I/O
@@ -148,17 +152,16 @@ Class 8/10 Using Python for biological analyses (Jesse) Oct 23
 -   Importing python modules
 
 Class 9/10 Advanced Python (Trevor) Oct 25
-=======================================
+==========================================
 
 -   dictionaries
 -   iterators / list comprehension
--   classes 
+-   classes
 -   Installing packages inside virtual environments
 
 Class 10/10 Scipy-Numpy-Matplotlib (Phil) Oct 30
-======================================
+================================================
 
 -   scipy, clustering, linear modeling
 -   numpy
 -   scikit-learn
-
