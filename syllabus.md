@@ -1,4 +1,4 @@
-Class 1/10 Jupyter, Markdown, Github and version-control (Jesse / Trevor) Sep 27
+Class 1/10 Jupyter, Markdown, Github and version-control (Jesse/Trevor) Sep 27
 =========================================================================
 
 -   Brief introduction:
@@ -102,7 +102,18 @@ Homework ideas
 
 -   `at`, `if`, `all` variations
 
-Class 5/10 Advanced command line (Jesse/Phil) Oct 11
+Class 5/10 Genomic data analysis using Bioconductor (Rasi) Oct 16
+==========================================================
+
+-   Continue using `R` Jupyter environment
+-   Use RNA Seq differential gene expression as example
+-   Introduce `GenomicAlignments`, `GenomicRanges`, `DESeq2`
+    -   Use a simplified version of the `DESeq2` vignette:
+        <http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html>
+    -   Might be useful to have `plyranges` to keep a `tidyverse`-like
+        workflow
+
+Class 6/10 Advanced command line (Phil) Oct 11
 =============================================
 
 -   Customizing command-line using `.bashrc` and `.bash_profile`
@@ -115,18 +126,7 @@ Class 5/10 Advanced command line (Jesse/Phil) Oct 11
     source-installed packages
 -   All the above tasks can be used to illustrate shell scripting
 
-Class 6/10 Genomic data analysis using Bioconductor (Rasi) Oct 16
-==========================================================
-
--   Continue using `R` Jupyter environment
--   Use RNA Seq differential gene expression as example
--   Introduce `GenomicAlignments`, `GenomicRanges`, `DESeq2`
-    -   Use a simplified version of the `DESeq2` vignette:
-        <http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html>
-    -   Might be useful to have `plyranges` to keep a `tidyverse`-like
-        workflow
-
-Class 7/10 Writing multi-functional programs using Python (Phil/Trevor/Jesse) Oct 18
+Class 7/10 Writing multi-functional programs using Python (Phil) Oct 18
 =============================================================================
 
 -   data types: `integer`, `float`, `string`
@@ -138,7 +138,7 @@ Class 7/10 Writing multi-functional programs using Python (Phil/Trevor/Jesse) Oc
 -   code formatting
 -   debugging using `ipdb` and `pdb`
 
-Class 8/10 Using Python for biological analyses (Jesse/Phil) Oct 23
+Class 8/10 Using Python for biological analyses (Jesse) Oct 23
 ============================================================
 
 -   String analysis and regular expressions
@@ -147,7 +147,7 @@ Class 8/10 Using Python for biological analyses (Jesse/Phil) Oct 23
 -   Biopython
 -   Importing python modules
 
-Class 9/10 Advanced Python (Jesse/Phil) Oct 25
+Class 9/10 Advanced Python (Trevor) Oct 25
 =======================================
 
 -   dictionaries
@@ -155,7 +155,7 @@ Class 9/10 Advanced Python (Jesse/Phil) Oct 25
 -   classes 
 -   Installing packages inside virtual environments
 
-Class 10/10 Odds and ends (Jesse/Phil) Oct 30
+Class 10/10 Scipy-Numpy-Matplotlib (Phil) Oct 30
 ======================================
 
 -   scipy, clustering, linear modeling
