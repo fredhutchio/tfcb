@@ -10,9 +10,8 @@ Class 1/10 Jupyter, Markdown, Github and version-control (Jesse / Trevor) Sep 27
         -   The goal is to introduce good practices that students should
             continue applying throughout their graduate school and
             beyond
-        -   Students will learn a bit of both `R` and `python`.
-            Recommend adopting one of them depending on analysis needs
-    -   Syllabus
+        -   Students will learn a bit of both `R` and `python` -- `R` for standard data analysis tasks, `python` for writing more complex workflows and to get familiar with typical programming features. At the end of the class, we recommend adopting one of them depending on analysis needs
+    -   Syllabus overview
     -   Homework
         -   Everyone forks a common repository that contain the
             assignments as `assignments/assignment_1.ipynb`
