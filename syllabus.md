@@ -141,24 +141,24 @@ Class 7/10 Writing multi-functional programs using Python (Phil/Trevor/Jesse) Oc
 Class 8/10 Using Python for biological analyses (Jesse/Phil) Oct 23
 ============================================================
 
--   Biopython
--   Protein structure parsing and modeling using Python/Jupyter
 -   String analysis and regular expressions
+-   File I/O
+-   Matplotlib
+-   Biopython
+-   Importing python modules
 
 Class 9/10 Advanced Python (Jesse/Phil) Oct 25
 =======================================
 
 -   dictionaries
--   iterators
+-   iterators / list comprehension
+-   classes 
 -   Installing packages inside virtual environments
--   Creating a Python package
 
 Class 10/10 Odds and ends (Jesse/Phil) Oct 30
 ======================================
 
--   Command line tools: `emboss`, `bowtie`, `fastxtoolkit`
--   Advanced git: branching, merging, conflict resolution, `.gitignore`
--   Comparing versions using `vimdiff`
--   **Another idea for this class is for students to give a brief 5 min
-    introduction to their final projects**
+-   scipy, clustering, linear modeling
+-   numpy
+-   scikit-learn
 
