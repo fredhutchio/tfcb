@@ -1,4 +1,4 @@
-Class 1/10 Jupyter, Markdown, Github and version-control (Jesse/Trevor) Sep 27
+Class 1/10 Jupyter, Markdown, Github and version-control (Jesse) Sep 27
 ==============================================================================
 
 -   Brief introduction:
